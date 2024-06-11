@@ -35,6 +35,6 @@ function UseEff2() {
       <h1>{data}</h1>
     </div>
   );
-}
+
 
 export default UseEff2;

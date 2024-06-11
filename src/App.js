@@ -1,10 +1,10 @@
 //import "./App.css";
-import Carousel from "./Carousel.js";
+import CRUD from "./CRUD.js";
 
 function App() {
   return (
     <div>
-      <Carousel />
+      <CRUD />
     </div>
   );
 }
