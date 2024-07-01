@@ -1,12 +1,14 @@
 //import "./App.css";
-import CRUD from "./CRUD.js";
+import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
+import Home from "./Route/Home.js";
+import About from "./Route/About.js";
+//import Navbars from "./Route/Navbar.js";
+import Contact from "./Route/Contact.js";
+import { Link } from "react-scroll";
+import Products from "./Products.js";
 
 function App() {
-  return (
-    <div>
-      <CRUD />
-    </div>
-  );
+  return <Products />;
 }
 
 export default App;
